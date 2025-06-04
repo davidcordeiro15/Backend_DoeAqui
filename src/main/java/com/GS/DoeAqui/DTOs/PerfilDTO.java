@@ -35,11 +35,6 @@ public class PerfilDTO {
         this.endereco = perfil.getEndereco();
         this.cidade = perfil.getCidade();
         this.estado = perfil.getEstado();
-        this.necessidade = perfil.getNecessidade();
-        this.nomeONG = perfil.getNomeONG();
-        this.rotaDeEntrega = perfil.getRotaDeEntrega();
-        this.tipoVeiculo = perfil.getTipoVeiculo();
-        this.tipoPerfil = perfil.getTipoPerfil();
     }
 
     /** Getters e setters */
@@ -130,11 +125,6 @@ public class PerfilDTO {
         perfil.setEndereco(this.endereco);
         perfil.setCidade(this.cidade);
         perfil.setEstado(this.estado);
-        perfil.setNecessidade(this.necessidade);
-        perfil.setNomeONG(this.nomeONG);
-        perfil.setRotaDeEntrega(this.rotaDeEntrega);
-        perfil.setTipoVeiculo(this.tipoVeiculo);
-        perfil.setTipoPerfil(this.tipoPerfil);
         return perfil;
     }
 }

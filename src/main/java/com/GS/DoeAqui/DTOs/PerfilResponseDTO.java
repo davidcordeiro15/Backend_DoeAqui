@@ -17,7 +17,7 @@ public class PerfilResponseDTO {
     private String nomeONG;
     private String rotaDeEntrega;
     private String tipoVeiculo;
-    private String tipoPerfil;
+
 
     /**
      * Constrói o DTO de resposta a partir do Perfil.
@@ -29,11 +29,7 @@ public class PerfilResponseDTO {
         this.endereco = perfil.getEndereco();
         this.cidade = perfil.getCidade();
         this.estado = perfil.getEstado();
-        this.necessidade = perfil.getNecessidade();
-        this.nomeONG = perfil.getNomeONG();
-        this.rotaDeEntrega = perfil.getRotaDeEntrega();
-        this.tipoVeiculo = perfil.getTipoVeiculo();
-        this.tipoPerfil = perfil.getTipoPerfil();
+
     }
 
     /** Getters */
@@ -65,7 +61,5 @@ public class PerfilResponseDTO {
     public String getTipoVeiculo() {
         return tipoVeiculo;
     }
-    public String getTipoPerfil() {
-        return tipoPerfil;
-    }
+
 }

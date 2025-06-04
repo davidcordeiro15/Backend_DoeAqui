@@ -96,4 +96,6 @@ public class RotaController {
         }
         return ResponseEntity.status(404).body("Rota não encontrada para o código: " + codigo);
     }
+
+
 }

@@ -152,47 +152,5 @@ public class Perfil {
         return doacoes;
     }
 
-    public void setDoacoes(List<Doacao> doacoes) {
-        this.doacoes = doacoes;
-    }
 
-    public String getNecessidade() {
-        return necessidade;
-    }
-
-    public void setNecessidade(String necessidade) {
-        this.necessidade = necessidade;
-    }
-
-    public String getNomeONG() {
-        return nomeONG;
-    }
-
-    public void setNomeONG(String nomeONG) {
-        this.nomeONG = nomeONG;
-    }
-
-    public String getRotaDeEntrega() {
-        return rotaDeEntrega;
-    }
-
-    public void setRotaDeEntrega(String rotaDeEntrega) {
-        this.rotaDeEntrega = rotaDeEntrega;
-    }
-
-    public String getTipoVeiculo() {
-        return tipoVeiculo;
-    }
-
-    public void setTipoVeiculo(String tipoVeiculo) {
-        this.tipoVeiculo = tipoVeiculo;
-    }
-
-    public String getTipoPerfil() {
-        return tipoPerfil;
-    }
-
-    public void setTipoPerfil(String tipoPerfil) {
-        this.tipoPerfil = tipoPerfil;
-    }
 }

@@ -28,7 +28,7 @@ public class RotaDTO {
     /** Construtor padrão */
     public RotaDTO() {}
 
-    // Getters e setters com documentação
+
 
     /**
      * Obtém a lista de IDs das doações.

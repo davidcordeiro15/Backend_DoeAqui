@@ -65,11 +65,6 @@ public class PerfilRepository {
             perfil.setEndereco(perfilAtualizado.getEndereco());
             perfil.setCidade(perfilAtualizado.getCidade());
             perfil.setEstado(perfilAtualizado.getEstado());
-            perfil.setNecessidade(perfilAtualizado.getNecessidade());
-            perfil.setNomeONG(perfilAtualizado.getNomeONG());
-            perfil.setRotaDeEntrega(perfilAtualizado.getRotaDeEntrega());
-            perfil.setTipoVeiculo(perfilAtualizado.getTipoVeiculo());
-            perfil.setTipoPerfil(perfilAtualizado.getTipoPerfil());
             return true;
         }
         return false;
@@ -85,7 +80,7 @@ public class PerfilRepository {
     }
 
     /**
-     * Lista todos os perfis cadastrados.
+     * Lista todos os perfis cadastrados, para conseguirmos encontrarmos o login correto no controller.
      * @return lista de perfis
      */
     public List<Perfil> listarTodos() {
